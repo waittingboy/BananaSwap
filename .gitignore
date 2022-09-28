@@ -1,0 +1,26 @@
+node_modules/
+coverage/
+
+#Hardhat files
+cache
+artifacts
+build
+.env
+types
+
+# yarn cache
+# https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+package-lock.json
+yarn.lock
+.DS_Store
+coverage.json
+.idea
+.openzeppelin/mainnet.json
+.openzeppelin/unknown-97.json
